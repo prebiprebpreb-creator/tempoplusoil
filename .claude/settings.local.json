@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.orlenoil.pl)",
+      "Bash(python -c \"import rembg; print\\('rembg ok'\\)\")",
+      "Bash(python -c \"from PIL import Image; print\\('pillow ok'\\)\")",
+      "Bash(pip install:*)",
+      "WebSearch",
+      "Bash(python:*)",
+      "Read(//c/Users/rronp/Downloads/Tempoplus/public/images/catalog/**)",
+      "Read(//c/Users/rronp/Downloads/Tempoplus/public/images/products/**)",
+      "WebFetch(domain:oferta.orlenoil.com)",
+      "Read(//c/Users/rronp/Downloads/Tempoplus/public/**)",
+      "Read(//c/Users/rronp/Downloads/Tempoplus/**)",
+      "Bash(wc -l \"/c/Users/rronp/Downloads/Tempoplus/public/js/\"*)",
+      "Bash(pip list:*)",
+      "WebFetch(domain:platinum.orlenoil.com)",
+      "Bash(node -e \"const c = require\\('./public/js/catalog.js'\\); console.log\\('OK - products:', window.ORLEN_CATALOG.length\\);\")",
+      "Bash(node -e \"try { eval\\(require\\('fs'\\).readFileSync\\('./public/js/catalog.js','utf8'\\)\\); console.log\\('Syntax OK, products:', window.ORLEN_CATALOG.length\\); } catch\\(e\\) { console.error\\('ERROR:', e.message\\); }\")",
+      "Bash(node --input-type=module)",
+      "Bash(node -e \"const fs=require\\('fs'\\); const src=fs.readFileSync\\('./public/js/catalog.js','utf8'\\); eval\\(src\\); console.log\\('Syntax OK. Products:',window.ORLEN_CATALOG.length\\);\")",
+      "Bash(node -e \"const fs=require\\('fs'\\); const src=fs.readFileSync\\('./public/js/catalog.js','utf8'\\); const window={}; eval\\(src\\); console.log\\('Syntax OK. Products:', window.ORLEN_CATALOG.length\\);\")",
+      "Bash(node -e ':*)",
+      "WebFetch(domain:petrosklep.pl)",
+      "WebFetch(domain:www.orlen.pl)",
+      "WebFetch(domain:egrando.pl)",
+      "Bash(python3:*)",
+      "WebFetch(domain:www.ceneo.pl)"
+    ]
+  }
+}
