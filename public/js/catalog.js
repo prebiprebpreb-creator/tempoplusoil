@@ -97,7 +97,7 @@ window.ORLEN_CATALOG = [
     sizes: ["1L", "4L", "5L"],
     badge: "Fiat/Lancia/AR",
     images: [
-      null,
+      "images/catalog/PL-MEFT-5W30.png",
       null,
       null
     ]
@@ -558,6 +558,38 @@ window.ORLEN_CATALOG = [
     ]
   },
   {
+    sku: "OR-UEF-5W20",
+    name: "Orlen Oil Ultor Effective 5W-20",
+    category: "truck",
+    categoryLabel: "Trucks & HGV",
+    type: "Fully Synthetic",
+    specs: "Fully synthetic · ACEA E6/E9 · Scania LDF-4 · For modern long-haul Euro VI Scania engines",
+    description: "Premium fully synthetic heavy-duty engine oil with official Scania LDF-4 approval, engineered for the latest generation of long-haul Scania diesel powerplants meeting Euro VI emission standards. The ultra-low SAPS formulation actively protects diesel particulate filters and SCR systems while delivering outstanding piston cleanliness, minimal soot accumulation and maximum drain interval extension under continuous highway duty cycles.",
+    sizes: ["20L", "208L"],
+    badge: "Scania LDF-4",
+    images: [
+      "images/catalog/OR-UEF-5W20.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "PL-UCOM-10W40",
+    name: "Platinum Ultor Complete 10W-40",
+    category: "truck",
+    categoryLabel: "Trucks & HGV",
+    type: "Fully Synthetic",
+    specs: "Fully synthetic · ACEA E6/E7/E9 · API CK-4/SN · MB 228.51 · Volvo VDS-4.5 · MAN M3477",
+    description: "Fully synthetic heavy-duty diesel engine oil meeting the most demanding modern Euro VI fleet specifications, carrying ACEA E6/E7/E9 performance and API CK-4/SN certification. Approved by Mercedes-Benz (228.51), Volvo (VDS-4.5) and MAN (M3477), it provides comprehensive engine protection for mixed fleets operating under long-haul and regional distribution duty cycles with extended oil drain intervals.",
+    sizes: ["20L", "60L", "208L"],
+    badge: "CK-4 / E6/E9",
+    images: [
+      "images/catalog/PL-UCOM-10W40.png",
+      null,
+      null
+    ]
+  },
+  {
     sku: "PL-UCH4-15W40",
     name: "Platinum Ultor CH-4 15W-40",
     category: "truck",
@@ -875,7 +907,11 @@ window.ORLEN_CATALOG = [
     description: "High-purity aqueous urea solution (AUS 32) at 32.5% concentration meeting ISO 22241 for use in Selective Catalytic Reduction (SCR) exhaust after-treatment systems fitted to Euro 4, Euro 5 and Euro 6 heavy-duty diesel trucks, buses and commercial vehicles. Injected into the exhaust stream upstream of the SCR catalyst to convert harmful nitrogen oxides (NOx) into harmless nitrogen and water vapour, enabling full compliance with stringent Euro emission regulations. Available in bulk, IBC and packaged containers for depot and roadside refilling.",
     sizes: ["5L", "10L", "20L", "1000L IBC"],
     badge: "SCR Fluid",
-    images: [null, null, null]
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
   },
 
   // ─── PLATINUM GEAR ─────────────────────────────────────────────────────────
@@ -1105,6 +1141,22 @@ window.ORLEN_CATALOG = [
     ]
   },
   {
+    sku: "PL-GATF6",
+    name: "Platinum Gear ATF VI",
+    category: "transmission",
+    categoryLabel: "Transmission",
+    type: "Fully Synthetic",
+    specs: "Fully synthetic · Low-viscosity ATF · For modern multi-stage automatic transmissions",
+    description: "High-performance fully synthetic low-viscosity automatic transmission fluid engineered for modern passenger car and light commercial vehicle multi-stage automatic gearboxes. The low-viscosity formulation reduces churning losses and supports fuel economy improvement while maintaining full film protection across all speed and load conditions in 6-, 8-, 9- and 10-speed automatic transmissions.",
+    sizes: ["1L", "208L"],
+    badge: "ATF VI",
+    images: [
+      "images/catalog/PL-GATF6.png",
+      null,
+      null
+    ]
+  },
+  {
     sku: "PL-GATF3",
     name: "Platinum Gear ATF III",
     category: "transmission",
@@ -1115,7 +1167,7 @@ window.ORLEN_CATALOG = [
     sizes: ["1L", "4L", "20L"],
     badge: "ATF III",
     images: [
-      "https://oferta.orlenoil.com/media/bcgn4suy/orlen-oil-gear-atf-iii-20l-etykieta-pr-ne240126_qso830k2r_r.png",
+      "images/catalog/PL-GATF3.png",
       null,
       null
     ]
@@ -1214,7 +1266,11 @@ window.ORLEN_CATALOG = [
     description: "Legacy mineral monograde gear oil in SAE 90 for older agricultural tractor gearboxes, vintage automotive transmissions and industrial gear drives requiring a low-specification lubricant. Hipol 6 provides basic anti-wear and anti-corrosion protection for gear assemblies manufactured before modern EP and GL-4 standards became universal, making it suitable for classic tractors, vintage cars and older manual industrial equipment where a straightforward mineral gear oil is specified.",
     sizes: ["1L", "5L", "20L"],
     badge: "Legacy GL-3",
-    images: [null, null, null]
+    images: [
+      "images/catalog/HP-6.png",
+      null,
+      null
+    ]
   },
 
   // ─── OTHER EXISTING PRODUCTS (retained) ───────────────────────────────────
@@ -1317,7 +1373,11 @@ window.ORLEN_CATALOG = [
     description: "Super Tractor Oil Universal (STOU) in SAE 10W-40 for modern agricultural tractors sharing a common sump between the engine, gearbox, hydraulic system and wet brakes. A single fluid replaces four separate lubricants, simplifying maintenance and reducing the risk of incorrect fluid use. Meets key John Deere and New Holland specifications, providing reliable protection for all drivetrain and hydraulic components throughout the service interval.",
     sizes: ["20L", "60L", "205L"],
     badge: "STOU 10W-40",
-    images: [null, null, null]
+    images: [
+      "images/catalog/OR-STOU-10W40.png",
+      null,
+      null
+    ]
   },
   {
     sku: "OR-UTTO",
@@ -1331,6 +1391,39 @@ window.ORLEN_CATALOG = [
     badge: "UTTO",
     images: [
       "https://oferta.orlenoil.com/media/satjoohs/orlen-oil-multi-utto-10w-30-20l-etykieta-pr-ne240109_qso899k2r_q-eps.png",
+      null,
+      null
+    ]
+  },
+
+  {
+    sku: "PL-AGRUTTO-10W30",
+    name: "Platinum Agro UTTO 10W-30",
+    category: "agri",
+    categoryLabel: "Agriculture",
+    type: "Mineral",
+    specs: "API GL-4 · Universal Tractor Transmission Oil · For combined gearbox/hydraulic/wet-brake sumps",
+    description: "Premium mineral Universal Tractor Transmission Oil (UTTO) in SAE 10W-30, engineered for the shared transmission, hydraulic and wet-brake sumps of agricultural tractors. Provides correct friction characteristics for wet multi-disc brakes, anti-wear protection for gear sets and smooth hydraulic actuation across a wide seasonal temperature range.",
+    sizes: ["5L", "20L", "208L"],
+    badge: "UTTO",
+    images: [
+      "images/catalog/PL-AGRUTTO-10W30.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "PL-MPTF",
+    name: "Platinum Multi PTF",
+    category: "agri",
+    categoryLabel: "Agriculture",
+    type: "Mineral",
+    specs: "Caterpillar TO-4 · Komatsu KES 07.868.1 · Power Transmission Fluid · SAE 10W / 30 / 50",
+    description: "Multi-viscosity power transmission fluid meeting Caterpillar TO-4 and Komatsu KES 07.868.1 specifications for heavy construction and agricultural equipment. Provides correct friction management for wet brakes and clutches, anti-wear protection for final drives and gear sets, and compatible hydraulic performance across the full SAE 10W, 30 and 50 viscosity range.",
+    sizes: ["20L", "208L"],
+    badge: "CAT TO-4",
+    images: [
+      "images/catalog/PL-MPTF.png",
       null,
       null
     ]
@@ -1498,7 +1591,91 @@ window.ORLEN_CATALOG = [
     description: "High-performance fully synthetic lithium complex grease for bearings operating under heavy loads, high speeds and elevated temperatures. The synthetic base oil and lithium complex thickener provide a service temperature range from -30°C to +200°C — far exceeding that of conventional mineral greases — combined with excellent water resistance, mechanical stability and extreme-pressure protection. Ideal for electric motor bearings, industrial fans and automotive wheel bearings in demanding high-temperature applications.",
     sizes: ["0.4kg", "1kg", "5kg", "18kg"],
     badge: "Synthetic HT",
-    images: [null, null, null]
+    images: [
+      "images/catalog/OR-GRS-SYNHT2.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-LTN-4P1",
+    name: "Liten ŁT-4P1",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Lithium Grease",
+    specs: "Multi-purpose lithium machine grease · DIN 51502 K1K-30 · NLGI 1 · -30°C to +120°C",
+    description: "Soft NLGI 1 consistency multi-purpose lithium grease to DIN 51502 K1K-30 for rolling and plain bearings, electric motor bearings and centralized lubrication systems where a pumpable consistency is required. Provides reliable protection against wear, rust and water washout across a wide working temperature range from -30°C to +120°C.",
+    sizes: ["0.8kg", "4.5kg", "18kg", "180kg"],
+    badge: "NLGI 1",
+    images: [
+      "images/catalog/OR-GRS-LITEN-EP2.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-LTN-4P2",
+    name: "Liten ŁT-4P2",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Lithium Grease",
+    specs: "Multi-purpose lithium machine grease · DIN 51502 K2K-30 · NLGI 2 · -30°C to +120°C",
+    description: "Standard NLGI 2 consistency multi-purpose lithium grease to DIN 51502 K2K-30 for a wide range of rolling bearings, wheel hubs, electric motors and general industrial bearing applications. Excellent water resistance, mechanical stability and anti-corrosion properties make it the universal choice for automotive and industrial maintenance across a working range of -30°C to +120°C.",
+    sizes: ["0.8kg", "4.5kg", "18kg", "180kg"],
+    badge: "NLGI 2",
+    images: [
+      "images/catalog/OR-GRS-LITEN-EP2.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-LTN-4P3",
+    name: "Liten ŁT-4P3",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Lithium Grease",
+    specs: "Multi-purpose lithium machine grease · DIN 51502 K3K-30 · NLGI 3 · -30°C to +120°C",
+    description: "Stiff NLGI 3 consistency multi-purpose lithium grease to DIN 51502 K3K-30 for plain and rolling bearings subjected to heavier loads or higher speeds where grease retention is critical. Suitable for wheel bearings, slow-speed gearboxes and applications exposed to vibration or heavy shock loads, operating reliably from -30°C to +120°C.",
+    sizes: ["0.8kg", "4.5kg", "18kg", "180kg"],
+    badge: "NLGI 3",
+    images: [
+      "images/catalog/OR-GRS-LITEN-EP2.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-GRS-STP",
+    name: "Greasen STP",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Calcium Grease",
+    specs: "Calcium chassis grease · DIN 51502 M3G-10 · NLGI 3 · For chassis and leaf spring pins",
+    description: "Heavy-duty calcium-formulated chassis and leaf spring pin grease to DIN 51502 M3G-10, engineered for lubrication of automotive and truck chassis pivot points, king pins, tie rod ends and leaf spring shackles exposed to heavy loads, road vibration and water contamination. The calcium soap structure provides outstanding water resistance and adhesion, keeping lubrication in place under severe oscillating motion of chassis components.",
+    sizes: ["0.8kg", "4.5kg", "18kg"],
+    badge: "Chassis",
+    images: [
+      "images/catalog/OR-GRS-STP.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-GRS-GRAF",
+    name: "Greasen Grafit",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Graphite Grease",
+    specs: "Graphite fortified grease · DIN 51502 KF2C-20 · NLGI 2 · For highly loaded slow sliding surfaces",
+    description: "Graphite-fortified mineral grease to DIN 51502 KF2C-20 for highly loaded, slow-moving sliding surfaces and open gear contacts where solid lubrication is essential. The finely dispersed graphite particles form a protective solid film that resists squeeze-out under extreme contact pressure, making it ideal for fifth-wheel couplings, open gear drives, threaded connections and sliding guideways subjected to high static and impact loads.",
+    sizes: ["0.8kg", "4.5kg"],
+    badge: "Graphite",
+    images: [
+      "images/catalog/OR-GRS-GRAF.png",
+      null,
+      null
+    ]
   },
   {
     sku: "PL-COS-INS",
@@ -2209,7 +2386,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "HVLP-D",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2225,7 +2402,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "ISO VG 15",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2241,7 +2418,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "ISO VG 22",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2257,7 +2434,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "ISO VG 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2273,7 +2450,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "ISO VG 68",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2289,7 +2466,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "ISO VG 100",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2308,7 +2485,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Heavy VG 15",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2324,7 +2501,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Heavy VG 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2340,7 +2517,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Heavy VG 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2356,7 +2533,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Heavy VG 68",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2372,7 +2549,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Heavy VG 100",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2391,7 +2568,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Power VG 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2407,7 +2584,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Power VG 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2423,7 +2600,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Power VG 68",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2442,7 +2619,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Plus VG 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2458,7 +2635,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Plus VG 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2474,7 +2651,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Plus VG 68",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2493,7 +2670,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Extra HLP-D",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2509,7 +2686,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium HLP-D 15",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2525,7 +2702,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium HLP-D 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2541,7 +2718,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "HLP-D",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2557,7 +2734,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium HM 15",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2573,7 +2750,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "HM/HLP",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2589,7 +2766,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "L-HL",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2608,7 +2785,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Bio HEES",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2624,7 +2801,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Bio HEES EL 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2640,7 +2817,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Bio HETG EL 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2659,7 +2836,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Special",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2694,7 +2871,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Synt PE 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2710,7 +2887,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Extra VG 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2726,7 +2903,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Extra VG 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2742,7 +2919,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Extra VG 68",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2758,7 +2935,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Arctic VG 15",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2774,7 +2951,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Arctic VG 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2790,7 +2967,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium VG 15",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2806,7 +2983,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium VG 22",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2822,7 +2999,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium VG 32",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2838,7 +3015,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium VG 46",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2854,7 +3031,7 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium VG 68",
     images: [
-      null,
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2870,7 +3047,109 @@ window.ORLEN_CATALOG = [
     sizes: ["20L", "60L", "205L"],
     badge: "Premium HVLP-D",
     images: [
+      "images/catalog/_generic-drum.png",
       null,
+      null
+    ]
+  },
+
+  // ─── TRANSOL Industrial Gear Oils ────────────────────────────────────────────
+
+  {
+    sku: "OR-TRANSOL-150",
+    name: "Transol 150",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Industrial Gear Oil",
+    specs: "Industrial gear oil · DIN 51517-3 CLP · ISO 12925-1 CKC · ISO VG 150",
+    description: "High-load mineral industrial gear oil to DIN 51517-3 CLP and ISO 12925-1 CKC for enclosed spur, helical and bevel gear drives. The EP additive package withstands shock loads and continuous heavy contact stress while providing excellent rust protection, demulsibility and long service life in industrial gearboxes, worm drives and steel-mill equipment.",
+    sizes: ["20L", "208L"],
+    badge: "CLP 150",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TRANSOL-220",
+    name: "Transol 220",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Industrial Gear Oil",
+    specs: "Industrial gear oil · DIN 51517-3 CLP · ISO 12925-1 CKC · ISO VG 220",
+    description: "High-load mineral industrial gear oil to DIN 51517-3 CLP and ISO 12925-1 CKC for enclosed spur, helical and bevel gear drives. ISO VG 220 covers a wide range of industrial gearboxes operating under moderate to heavy load, with outstanding film strength and anti-wear performance.",
+    sizes: ["20L", "208L"],
+    badge: "CLP 220",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TRANSOL-320",
+    name: "Transol 320",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Industrial Gear Oil",
+    specs: "Industrial gear oil · DIN 51517-3 CLP · ISO 12925-1 CKC · ISO VG 320",
+    description: "High-load mineral industrial gear oil to DIN 51517-3 CLP and ISO 12925-1 CKC for enclosed gear drive units under high load. ISO VG 320 is the most widely specified viscosity grade for industrial gearboxes and is recommended for drives operating at moderate speeds and high contact loads, including conveyor reducers and mixing equipment.",
+    sizes: ["20L", "208L"],
+    badge: "CLP 320",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TRANSOL-460",
+    name: "Transol 460",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Industrial Gear Oil",
+    specs: "Industrial gear oil · DIN 51517-3 CLP · ISO 12925-1 CKC · ISO VG 460",
+    description: "High-load mineral industrial gear oil to DIN 51517-3 CLP and ISO 12925-1 CKC in the heavy ISO VG 460 viscosity grade for slow-speed, high-torque enclosed gear units. Designed for large reduction gearboxes in rolling mills, cement plants, mining equipment and other heavy industrial applications requiring maximum EP film protection.",
+    sizes: ["20L", "208L"],
+    badge: "CLP 460",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+
+  // ─── Air Compressor & Turbine Oils ────────────────────────────────────────────
+
+  {
+    sku: "OR-COR-DAB100",
+    name: "Coralia L-DAB 100",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Compressor Oil",
+    specs: "Piston/reciprocating air compressor oil · PN-C-96073 · ISO-L-DAB · ISO VG 100",
+    description: "Premium mineral compressor oil to PN-C-96073 and ISO-L-DAB classification, engineered for lubrication of reciprocating and piston air compressors. The balanced additive package provides outstanding resistance to oxidation and carbon deposit formation at hot valve areas, good demulsibility to separate condensed water, and reliable anti-wear protection for cylinders and packing rings.",
+    sizes: ["20L", "208L"],
+    badge: "L-DAB 100",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TURB-T46",
+    name: "Turbine T-46",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Turbine Oil",
+    specs: "Turbine oil · ISO 6743-5 TGA/TGE · ISO VG 46 · Oxidation and rust inhibited",
+    description: "Advanced oxidation-inhibited turbine oil to ISO 6743-5 TGA/TGE in ISO VG 46 for power-station steam and gas turbines, turbocharger circulating systems, and governor and bearing lubrication applications. Delivers exceptional oxidation stability, rapid air release, excellent demulsibility and outstanding long-term rust protection under continuous high-temperature operation.",
+    sizes: ["208L", "1000L"],
+    badge: "TGA/TGE 46",
+    images: [
+      "images/catalog/_generic-drum.png",
       null,
       null
     ]
@@ -2954,6 +3233,511 @@ window.ORLEN_CATALOG = [
     badge: "ATF II E",
     images: [
       "https://www.orlenoil.pl/PL/NaszaOferta/Produkty/PublishingImages/hipol_ATF-II-E_5L.png",
+      null,
+      null
+    ]
+  },
+
+  // ─── ORLEN OIL CATALOG EXPANSION (new SKUs) ──────────────────────────────────
+
+  {
+    sku: "PL-MEV-0W30",
+    name: "Platinum MaxExpert V 0W-30",
+    category: "passenger",
+    categoryLabel: "Passenger Cars",
+    type: "Fully Synthetic",
+    specs: "Fully synthetic · ACEA C3 · API SN · BMW LL-04 · MB 229.51/229.31 · VW 504.00/507.00 · GM dexos2",
+    description: "Full synthetic low-SAPS 0W-30 engine oil for the latest BMW, Mercedes-Benz and Volkswagen Group petrol and diesel engines with particulate filters and catalytic converters. The ultra-low 0W cold-start viscosity delivers near-instant oil circulation and improved fuel economy, while the C3 formulation protects DPF/GPF systems and supports extended drain intervals.",
+    sizes: ["1L", "4L", "20L", "208L"],
+    badge: "0W-30",
+    images: [
+      "images/catalog/PL-MEV-0W30.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "PL-MHYB-0W20",
+    name: "Platinum MaxExpert HYBRID 0W-20",
+    category: "passenger",
+    categoryLabel: "Passenger Cars",
+    type: "Fully Synthetic",
+    specs: "Fully synthetic · ACEA C5 · API SP · for hybrid & modern petrol engines · ultra-low viscosity",
+    description: "Ultra-low viscosity full synthetic 0W-20 oil engineered for petrol-electric hybrid and modern low-friction petrol engines. Meets ACEA C5 and API SP, minimising internal friction for measurable fuel savings while fully protecting stop-start systems, Atkinson-cycle cylinders and turbochargers under the frequent cold starts typical of hybrid duty cycles.",
+    sizes: ["1L", "4L", "20L", "208L"],
+    badge: "Hybrid",
+    images: [
+      "images/catalog/PL-MHYB-0W20.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "PL-MHYB-5W20",
+    name: "Platinum MaxExpert HYBRID 5W-20",
+    category: "passenger",
+    categoryLabel: "Passenger Cars",
+    type: "Fully Synthetic",
+    specs: "Fully synthetic · ACEA C5 · API SP · for hybrid & modern petrol engines",
+    description: "Full synthetic 5W-20 low-viscosity oil for petrol-electric hybrid and modern petrol engines requiring ACEA C5 / API SP performance. Delivers fuel-economy benefits through reduced friction while maintaining robust wear protection and oxidation stability during the repeated short-trip, low-temperature operation common to hybrid vehicles.",
+    sizes: ["1L", "4L", "20L", "208L"],
+    badge: "Hybrid",
+    images: [
+      "images/catalog/PL-MHYB-5W20.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "PL-UBAS-10W40",
+    name: "Platinum Ultor Basic 10W-40",
+    category: "truck",
+    categoryLabel: "Trucks & HGV",
+    type: "Semi-Synthetic",
+    specs: "Semi-synthetic · ACEA E7 · API CI-4 · MB 228.3 · MAN M3275-1 · Volvo VDS-3",
+    description: "Semi-synthetic heavy-duty diesel engine oil for Euro 3 and Euro 5 trucks and buses operating in mixed fleets. ACEA E7 performance with MB 228.3, MAN M3275-1 and Volvo VDS-3 approvals delivers dependable soot control, piston cleanliness and wear protection at standard drain intervals, providing an economical all-round lubricant for distribution and construction vehicles.",
+    sizes: ["20L", "60L", "208L", "1000L IBC"],
+    badge: "Fleet",
+    images: [
+      "images/catalog/PL-UBAS-10W40.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-COOLQNEW",
+    name: "Orlen Oil Petrygo Q NEW",
+    category: "coolant",
+    categoryLabel: "Coolants & Radiator Fluids",
+    type: "OAT Coolant",
+    specs: "Ready-to-use long-life coolant · silicate-free OAT · -37°C / +135°C · for car radiators",
+    description: "Ready-to-use silicate-free OAT (Organic Acid Technology) long-life engine coolant providing freeze protection to -37°C and boil protection to +135°C. Compatible with G12-class systems, it protects all cooling-circuit metals including aluminium alloys, cast iron and brass against corrosion, cavitation and scale, and is ready to pour straight into the radiator without dilution.",
+    sizes: ["1L", "5L", "20L", "208L", "1000L IBC"],
+    badge: "Ready-to-Use",
+    images: [
+      "images/catalog/OR-COOLQNEW.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-COOLPRIME",
+    name: "Orlen Oil Petrygo Prime G12++",
+    category: "coolant",
+    categoryLabel: "Coolants & Radiator Fluids",
+    type: "Si-OAT Coolant",
+    specs: "Ready-to-use coolant · G12++ Si-OAT hybrid · long-life · -37°C / +135°C",
+    description: "Premium ready-to-use G12++ (Si-OAT) hybrid long-life engine coolant combining organic acid inhibitors with a trace of silicate for fast aluminium protection. Delivers freeze protection to -37°C and extended service life in modern petrol, diesel and hybrid engines, safeguarding water pumps, radiators and heat exchangers against corrosion and overheating.",
+    sizes: ["1L", "5L", "20L", "208L", "1000L IBC"],
+    badge: "G12++",
+    images: [
+      "images/catalog/OR-COOLPRIME.png",
+      null,
+      null
+    ]
+  },
+
+  // ─── INDUSTRIAL / GREASE EXPANSION (new SKUs) ────────────────────────────────
+
+  {
+    sku: "OR-TRANSOL-SP150",
+    name: "Transol SP 150",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Industrial gear oil · ISO VG 150 · CLP · DIN 51517-3 · EP/AW additives",
+    description: "High-quality mineral industrial gear oil (CLP) in ISO VG 150 for enclosed spur, helical and bevel gear drives operating under high loads. The sulphur-phosphorus EP additive system provides outstanding protection against scuffing, micro-pitting and wear, while excellent oxidation and foam resistance ensures long service life in industrial gearboxes and bearings.",
+    sizes: ["20L", "208L"],
+    badge: "ISO VG 150",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TRANSOL-SP220",
+    name: "Transol SP 220",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Industrial gear oil · ISO VG 220 · CLP · DIN 51517-3 · EP/AW additives",
+    description: "Mineral CLP industrial gear oil in ISO VG 220 formulated for heavily loaded enclosed gear systems in industrial machinery. Provides high load-carrying capacity, scuffing protection and thermal-oxidative stability, with reliable demulsibility and anti-foam performance for circulation and splash-lubricated gearboxes.",
+    sizes: ["20L", "208L"],
+    badge: "ISO VG 220",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TRANSOL-SP320",
+    name: "Transol SP 320",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Industrial gear oil · ISO VG 320 · CLP · DIN 51517-3 · EP/AW additives",
+    description: "Mineral CLP industrial gear oil in ISO VG 320 for low-speed, high-torque enclosed gear drives. Its robust EP additive package and high viscosity deliver excellent wear and scuffing protection under shock loading, while maintaining oxidation stability and corrosion protection over extended drain intervals.",
+    sizes: ["20L", "208L"],
+    badge: "ISO VG 320",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TRANSOL-SP460",
+    name: "Transol SP 460",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Industrial gear oil · ISO VG 460 · CLP · DIN 51517-3 · EP/AW additives",
+    description: "Heavy-grade mineral CLP industrial gear oil in ISO VG 460 for the most heavily loaded slow-speed industrial gearboxes. Maintains a strong lubricating film under extreme pressure and high operating temperatures, protecting gears and bearings against wear, scuffing and corrosion in demanding heavy-manufacturing applications.",
+    sizes: ["20L", "208L"],
+    badge: "ISO VG 460",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-COR-DAB46",
+    name: "Coralia L-DAB 46",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Air compressor oil · ISO VG 46 · DIN 51506 VDL · for reciprocating compressors",
+    description: "Mineral air-compressor oil in ISO VG 46 meeting DIN 51506 VDL for reciprocating and rotary air compressors. Excellent thermal-oxidative stability minimises carbon and varnish deposits on valves and discharge lines, while good demulsibility and anti-corrosion performance protect the compressor throughout extended service intervals.",
+    sizes: ["20L", "208L"],
+    badge: "ISO VG 46",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-HYD-HLP32",
+    name: "Hydrol L-HM/HLP 32",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Hydraulic oil · HLP · ISO VG 32 · DIN 51524-2 · anti-wear",
+    description: "Anti-wear hydraulic oil (HLP) in ISO VG 32 meeting DIN 51524-2 for hydraulic systems operating at moderate temperatures and pressures. The zinc-based anti-wear additive system protects pumps, valves and actuators, while excellent demulsibility, air release and anti-foam properties ensure stable, reliable operation of industrial and mobile hydraulics.",
+    sizes: ["20L", "208L", "1000L IBC"],
+    badge: "HLP 32",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-HYD-HLP46",
+    name: "Hydrol L-HM/HLP 46",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Hydraulic oil · HLP · ISO VG 46 · DIN 51524-2 · anti-wear",
+    description: "Anti-wear hydraulic oil (HLP) in ISO VG 46, the most widely used industrial hydraulic grade, meeting DIN 51524-2. Delivers excellent wear protection for vane, gear and piston pumps along with strong oxidation resistance, water separation and air release for dependable performance in industrial hydraulic power units.",
+    sizes: ["20L", "208L", "1000L IBC"],
+    badge: "HLP 46",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-HYD-HLP68",
+    name: "Hydrol L-HM/HLP 68",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Hydraulic oil · HLP · ISO VG 68 · DIN 51524-2 · anti-wear",
+    description: "Anti-wear hydraulic oil (HLP) in ISO VG 68 meeting DIN 51524-2 for hydraulic systems operating under higher temperatures or loads requiring a heavier viscosity grade. Provides robust pump protection, oxidation stability and clean operation, with reliable demulsibility and foam control for heavy-duty industrial hydraulics.",
+    sizes: ["20L", "208L", "1000L IBC"],
+    badge: "HLP 68",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-HYD-HLP100",
+    name: "Hydrol L-HM/HLP 100",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Hydraulic oil · HLP · ISO VG 100 · DIN 51524-2 · anti-wear",
+    description: "Heavy-grade anti-wear hydraulic oil (HLP) in ISO VG 100 meeting DIN 51524-2 for high-temperature, high-load hydraulic and circulation systems. The thicker film maintains pump protection and pressure stability in demanding applications, with excellent oxidation resistance and contaminant separation.",
+    sizes: ["20L", "208L", "1000L IBC"],
+    badge: "HLP 100",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-HYD-LHV150",
+    name: "Hydrol L-HV 150",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Hydraulic oil · HVLP · high VI · ISO VG 150 · DIN 51524-3",
+    description: "High viscosity-index hydraulic oil (HVLP) in ISO VG 150 meeting DIN 51524-3 for hydraulic systems exposed to wide temperature variations. The high VI maintains a stable lubricating film across a broad operating range, while the anti-wear and shear-stable additive package protects heavily loaded pumps and motors in mobile and outdoor equipment.",
+    sizes: ["20L", "208L", "1000L IBC"],
+    badge: "HVLP 150",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-HYD-PHLPD46",
+    name: "Hydrol Premium HLP-D 46",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Detergent hydraulic oil · HLP-D · ISO VG 46 · with detergent/dispersant",
+    description: "Premium detergent-dispersant hydraulic oil (HLP-D) in ISO VG 46 for hydraulic systems prone to water and contaminant ingress. The detergent additive system keeps dirt and condensation finely dispersed and carries them to the filter, preventing valve sticking and deposit formation while providing full anti-wear protection for precision hydraulics.",
+    sizes: ["20L", "208L", "1000L IBC"],
+    badge: "HLP-D 46",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-VELOL-9",
+    name: "Velol 9",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Spindle & machine oil · light viscosity · for high-speed spindles",
+    description: "Light mineral spindle and machine oil designed for high-speed textile and machine-tool spindles, light hydraulic systems and precision mechanisms requiring a low-viscosity lubricant. Provides reliable anti-wear and anti-corrosion protection with good oxidation stability for sustained high-speed operation.",
+    sizes: ["20L", "208L"],
+    badge: "Spindle",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-VELOL-19",
+    name: "Velol 19",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Precision spindle & machine oil · medium-light viscosity",
+    description: "Mineral precision spindle and machine oil of medium-light viscosity for machine-tool spindles, slideways and light hydraulic and circulation systems. Combines good anti-wear and anti-rust performance with thermal stability to ensure smooth, accurate operation of precision machinery.",
+    sizes: ["20L", "208L"],
+    badge: "Spindle",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-VELOL-29",
+    name: "Velol 29",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Heavy spindle & machine oil · medium viscosity",
+    description: "Mineral spindle and machine oil of medium viscosity for machine-tool bearings, spindles and light gearing requiring a slightly heavier lubricant. Provides dependable wear protection, corrosion inhibition and oxidation resistance for industrial precision equipment.",
+    sizes: ["20L", "208L"],
+    badge: "Spindle",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-SUCD30",
+    name: "Orlen Oil Superol CD 30",
+    category: "truck",
+    categoryLabel: "Trucks & HGV",
+    type: "Mineral",
+    specs: "Mineral monograde · API CD · SAE 30 · for turbocharged diesel engines",
+    description: "Monograde mineral engine oil to API CD in SAE 30 for naturally aspirated and turbocharged diesel engines in older trucks, buses, agricultural and stationary machinery. Provides effective protection against high-temperature deposits, corrosion and wear for compression-ignition engines operating on higher-sulphur fuel.",
+    sizes: ["20L", "60L", "208L", "1000L IBC"],
+    badge: "SAE 30 CD",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-SUCD40",
+    name: "Orlen Oil Superol CD 40",
+    category: "truck",
+    categoryLabel: "Trucks & HGV",
+    type: "Mineral",
+    specs: "Mineral monograde · API CD · SAE 40 · for turbocharged diesel engines",
+    description: "Monograde mineral engine oil to API CD in SAE 40 for turbocharged and naturally aspirated diesel engines operating at elevated temperatures. The heavier viscosity grade maintains oil-film strength and pressure in worn or hot-running engines, protecting bearings, pistons and liners in heavy-duty commercial and industrial diesel applications.",
+    sizes: ["20L", "60L", "208L", "1000L IBC"],
+    badge: "SAE 40 CD",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-TRAFO-EN",
+    name: "Trafo EN",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Transformer insulating oil · inhibited · IEC 60296 · electrical equipment",
+    description: "Inhibited mineral electrical insulating oil meeting IEC 60296 for power and distribution transformers, switchgear and other oil-filled electrical apparatus. Its high dielectric strength, low dissipation factor and excellent oxidation stability provide reliable insulation and heat transfer, extending the service life of electrical equipment.",
+    sizes: ["20L", "208L"],
+    badge: "Dielectric",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-ACP-1E",
+    name: "ACP-1E Cutting Fluid",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Neat cutting oil · for light machining & general metalworking",
+    description: "Neat (non-emulsifiable) mineral cutting oil for light to medium machining operations including turning, milling and drilling of ferrous and non-ferrous metals. Provides good lubrication and cooling at the cutting edge for improved surface finish and tool life, with corrosion protection for workpieces and machine tools.",
+    sizes: ["20L", "208L"],
+    badge: "Cutting",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-ACP-2E",
+    name: "ACP-2E Cutting Fluid",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Neat cutting oil · EP · for heavy machining, tapping & threading",
+    description: "EP-fortified neat cutting oil for demanding machining operations such as deep-hole drilling, tapping, threading and broaching of alloy steels. The extreme-pressure additive package reduces friction and welding at the tool tip, delivering superior tool life and surface finish in severe metal-cutting applications.",
+    sizes: ["20L", "208L"],
+    badge: "Cutting EP",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-ACP-3E",
+    name: "ACP-3E Cutting Fluid",
+    category: "industrial",
+    categoryLabel: "Industrial",
+    type: "Mineral",
+    specs: "Neat cutting oil · high-EP · for automated threading & severe operations",
+    description: "High-EP neat cutting oil for automated and severe metalworking operations including thread cutting, gear shaping and heavy broaching of hard alloys. Its reinforced additive chemistry withstands extreme tool-tip pressures and temperatures, protecting tooling and ensuring consistent precision in CNC and transfer-line machining.",
+    sizes: ["20L", "208L"],
+    badge: "Cutting EP",
+    images: [
+      "images/catalog/_generic-drum.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-GRS-BENTOR2",
+    name: "Bentor 2",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Bentonite Grease",
+    specs: "Bentonite grease · NLGI 2 · high-temperature · for hot bearings",
+    description: "High-temperature bentonite (clay-thickened) grease in NLGI grade 2 for plain and rolling bearings exposed to sustained high temperatures where conventional soap greases would melt or run. The non-melting thickener maintains consistency and lubrication in kiln cars, furnace conveyors, hot-rolling equipment and other hot operating environments.",
+    sizes: ["0.4kg", "4.5kg", "18kg", "180kg"],
+    badge: "NLGI 2",
+    images: [
+      "images/catalog/OR-GRS-BENTOR2.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-GRS-SEP00",
+    name: "Greasen S-EP 00",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Semi-Fluid Grease",
+    specs: "Semi-fluid EP grease · NLGI 00 · for central lubrication & gearboxes",
+    description: "Semi-fluid lithium EP grease in NLGI grade 00 for centralised lubrication systems and grease-lubricated enclosed gearboxes. The fluid consistency pumps readily through long lines at low temperatures while the EP additive package protects gears and bearings under heavy and shock loads against wear and scuffing.",
+    sizes: ["0.4kg", "4.5kg", "18kg", "180kg"],
+    badge: "NLGI 00",
+    images: [
+      "images/catalog/OR-GRS-STP.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "OR-GRS-LITEN-EP2",
+    name: "Liten Premium EP-2",
+    category: "grease",
+    categoryLabel: "Greases",
+    type: "Lithium EP Grease",
+    specs: "Lithium EP grease · NLGI 2 · multipurpose · for bearings & chassis",
+    description: "Multipurpose lithium extreme-pressure grease in NLGI grade 2 for rolling and plain bearings, chassis points, joints and general industrial and automotive lubrication. The EP additive system provides excellent load-carrying capacity and wear protection, with good water resistance, mechanical stability and corrosion protection across a wide temperature range.",
+    sizes: ["0.4kg", "4.5kg", "18kg", "180kg"],
+    badge: "NLGI 2 EP",
+    images: [
+      "images/catalog/OR-GRS-LITEN-EP2.png",
+      null,
+      null
+    ]
+  },
+
+  // ─── PLATINUM CLASSIC GAS (LPG/CNG line) ─────────────────────────────────────
+
+  {
+    sku: "PL-GASSYN-5W40",
+    name: "Platinum Classic Gas Synthetic 5W-40",
+    category: "passenger",
+    categoryLabel: "Passenger Cars",
+    type: "Fully Synthetic",
+    specs: "Fully synthetic · API SL · for LPG/CNG & petrol engines · gas-installation compatible",
+    description: "Full synthetic engine oil developed specifically for petrol cars fitted with LPG/CNG gas installations. Its additive system is optimised for the higher combustion temperatures and different deposit characteristics of gaseous fuels, providing excellent protection against valve-seat wear and oil oxidation while supporting reliable year-round operation on both petrol and gas.",
+    sizes: ["1L", "4L", "5L"],
+    badge: "LPG/CNG",
+    images: [
+      "images/catalog/PL-GASSYN-5W40.png",
+      null,
+      null
+    ]
+  },
+  {
+    sku: "PL-GASSEMI-10W40",
+    name: "Platinum Classic Gas Semisynthetic 10W-40",
+    category: "passenger",
+    categoryLabel: "Passenger Cars",
+    type: "Semi-Synthetic",
+    specs: "Semi-synthetic · API SL · for LPG/CNG & petrol engines · gas-installation compatible",
+    description: "Semi-synthetic engine oil formulated for petrol vehicles equipped with LPG/CNG gas systems. Balances economy with dependable protection against the elevated thermal loads and valve wear associated with gas combustion, maintaining stable viscosity and oil-film strength for year-round dual-fuel operation in older and modern engines requiring API SL.",
+    sizes: ["1L", "4L", "5L"],
+    badge: "LPG/CNG",
+    images: [
+      "images/catalog/PL-GASSEMI-10W40.png",
       null,
       null
     ]
